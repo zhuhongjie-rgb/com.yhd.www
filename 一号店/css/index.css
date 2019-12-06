@@ -1789,7 +1789,7 @@
 }
 
 .quanbushangpin {
-    height: 5141px;
+    height: 1380px;
     background-color: #F5F5F5;
 }
 
@@ -1862,4 +1862,136 @@
     border: 1px solid #FFCCE0;
     background-color: #FFF3FA;
     color: #FF62A1;
+}
+
+.jingxuanpinpai {
+    width: 350px;
+    height: 238px;
+    background-color: #fff;
+    margin-right: 10px;
+    float: left;
+}
+
+.jingxuanpinpai h3 {
+    height: 42px;
+    width: 350px;
+    text-align: center;
+    line-height: 42px;
+}
+
+.jingxuanpinpai span {
+    font-size: 16px;
+    color: #666666;
+}
+
+.jingxuanpinpai-tupian span:hover {
+    display: block;
+}
+
+.jingxuanpinpai-tupian a {
+    float: left;
+    width: 174px;
+    height: 90px;
+}
+
+.jingxuanpinpai-tupian a {
+    text-align: center;
+    border-right: 1px solid #F6F6F6;
+    border-bottom: 1px solid #F6F6F6;
+    line-height: 10;
+}
+
+.jingxuanpinpai-tupian img {
+    width: 100px;
+    height: 35px;
+}
+
+.jingxuanpinpai-tupian a:nth-child(3),
+.jingxuanpinpai-tupian a:nth-child(4) {
+    border-bottom: none;
+}
+
+.shangpin a {
+    float: left;
+}
+
+.zhengpinbaozheng-neirong {
+    width: 1070px;
+    height: 127px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.zhengpinbaozhang {
+    float: left;
+    width: 205px;
+    height: 66px;
+    padding: 30px 0;
+}
+
+.zhengpinbaozhang img {
+    float: left;
+    margin-right: 10px;
+}
+
+.zhengpinbaozhang i {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.zhengpinbaozhang span {
+    font-size: 14px;
+    color: #A69999;
+}
+
+.zhengpinbaozhang:nth-child(1),
+.zhengpinbaozhang:nth-child(2),
+.zhengpinbaozhang:nth-child(3) {
+    margin-right: 81px;
+}
+
+.fuwujieshao {
+    margin-top: 20px;
+}
+
+.fuwujieshao-neirong {
+    width: 1070px;
+    height: 192px;
+}
+
+.xinshourumen {
+    float: left;
+    width: 195px;
+    height: 192px;
+}
+
+.xinshourumen ul {
+    height: 24px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #666666;
+}
+
+.xinshourumen li {
+    height: 24px;
+}
+
+.xinshourumen li:hover {
+    color: #FE4040;
+}
+
+.APPgengyouhui {
+    width: 90px;
+    height: 120px;
+    float: left;
+    margin-right: 50px;
+}
+
+.APPgengyouhui ul {
+    height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666666;
 }
