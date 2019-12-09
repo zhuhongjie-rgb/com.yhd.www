@@ -155,6 +155,7 @@
     line-height: 40px;
 }
 
+/*轮播图 */
 .lunbotu {
     width: 1520px;
     height: 400px;
@@ -661,19 +662,41 @@
 }
 
 .pinzhijinkou-right-tupian {
-    width: 120px;
+    width: 98px;
     height: 317px;
     position: absolute;
-    top: 78px;
-    right: 22px;
+    top: 62px;
+    right: 46px;
+    background-color: #F6F6F6;
+}
+
+.pinzhijinkou-right-tupian span {
+    background: url(../img/top1.png);
+    color: #fff;
+    font-weight: 800;
+    position: relative;
+    top: 18px;
+}
+
+.pinzhijinkou-right-tupian span:nth-child(3) {
+    background: url(../img/top2.png);
+    color: #fff;
+    font-weight: 800;
+}
+
+.pinzhijinkou-right-tupian span:nth-child(5) {
+    background: url(../img/top3.png);
+    color: #fff;
+    font-weight: 800;
 }
 
 .pinzhijinkou-right-tupian img {
     margin-left: 20px;
-    margin: 5px;
+    margin: 2px;
     width: 90px;
     height: 90px;
 }
+
 
 .pinzhijinkou-right-jiantou {
     width: 119px;
@@ -1467,7 +1490,7 @@
     position: absolute;
     width: 176px;
     height: 90px;
-    margin-left: 14px;
+    margin-left: 25px;
     top: 83px;
 }
 
@@ -1788,6 +1811,7 @@
     background-color: #D5D5D5;
 }
 
+/* 全部商品 */
 .quanbushangpin {
     height: 1380px;
     background-color: #F5F5F5;
@@ -1921,6 +1945,7 @@
     border-bottom: 1px solid #EBEBEB;
 }
 
+/* 正品保障 */
 .zhengpinbaozhang {
     float: left;
     width: 205px;
@@ -1952,6 +1977,7 @@
     margin-right: 81px;
 }
 
+/* 服务介绍 */
 .fuwujieshao {
     margin-top: 20px;
 }
@@ -1994,4 +2020,35 @@
     font-size: 14px;
     font-weight: 700;
     color: #666666;
+}
+
+/* 底部 */
+.dibu {
+    height: 155px;
+    width: 1519px;
+}
+
+.neirong {
+    text-align: center;
+}
+
+.neirong span:hover,
+.neirong a:hover,
+.neirong i:hover {
+    color: #FE4040;
+}
+
+.rqi p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.dibu-tupian {
+    text-align: center;
+}
+
+.dibu-tupian img {
+    vertical-align: top;
+    margin: 0 5px;
 }
