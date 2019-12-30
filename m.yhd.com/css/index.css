@@ -1,0 +1,163 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f6f6f6;
+}
+
+header {
+    height: 60px;
+    background-color: #EFE7E9;
+    overflow: hidden;
+}
+
+
+header img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.wenzi {
+    float: left;
+    width: 110px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.wenzi span:first-child {
+    color: #6A4043;
+}
+
+.wenzi span:last-child {
+    color: #846366;
+    font-size: 12px;
+}
+
+.right {
+    float: right;
+    width: 95px;
+    height: 60px;
+    background-color: #F32C38;
+}
+
+.right span {
+    color: #FDDCDE;
+    line-height: 60px;
+    padding-left: 17%;
+}
+
+/* 内容 */
+main {
+    width: 100%;
+}
+
+.lunbotu img {
+    width: 100%;
+}
+
+.daohang {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    height: 45px;
+    color: #fff;
+}
+
+.daohang img {
+    position: relative;
+    bottom: -5px;
+    width: 40px;
+    height: 40px;
+}
+
+.daohang span:nth-child(2) {
+    font-size: 20px;
+    position: relative;
+    top: -9px;
+}
+
+.daohang input {
+    position: relative;
+    top: -9px;
+    width: 187px;
+    height: 25px;
+    border-radius: 11px;
+}
+
+.gongnengjiansao {
+    position: relative;
+    top: -50px;
+    width: 95%;
+    height: 90px;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.gongnengjiansao a {
+    float: left;
+    width: 18%;
+    margin: 0px 3px;
+    text-decoration: none;
+}
+
+.gongnengjiansao img {
+    width: 100%;
+    height: 50px;
+}
+
+.gongnengjiansao p {
+    margin: 0px;
+    text-align: center;
+    color: #8C8C8C;
+}
+
+.xinrentehui {
+    position: relative;
+    top: -40px;
+    width: 95%;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.xinrentehui img {
+    width: 50%;
+    float: left;
+}
+
+.chaojidanpin {
+    margin-top: -30px;
+    width: 100%;
+}
+
+.biaoti {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    line-height: 60px;
+    overflow: hidden;
+}
+
+.biaoti span {
+    float: left;
+}
+
+/* .biaoti span:nth-child(2),
+.biaoti span:nth-child(4),
+.biaoti span:nth-child(6) {
+    background-color: #6B6B6B;
+    color: #fff;
+} */
+
+.biaoti span:first-child {
+    margin-right: 10px;
+}
+
+.biaoti small {
+    float: left;
+}
+
+.biaoti-right span {
+    color: #FF3C64;
+    float: right;
+}
