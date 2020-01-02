@@ -5,11 +5,11 @@ body {
 }
 
 header {
+    width: 100%;
     height: 60px;
     background-color: #EFE7E9;
     overflow: hidden;
 }
-
 
 header img {
     width: 60px;
@@ -35,7 +35,7 @@ header img {
 
 .right {
     float: right;
-    width: 95px;
+    width: 90px;
     height: 60px;
     background-color: #F32C38;
 }
@@ -74,6 +74,15 @@ main {
     font-size: 20px;
     position: relative;
     top: -9px;
+}
+
+.daohang a {
+    text-decoration: none;
+}
+
+.daohang span {
+    font-size: 34px;
+    color: #fff;
 }
 
 .daohang input {
@@ -142,14 +151,16 @@ main {
     float: left;
 }
 
-/* .biaoti span:nth-child(2),
-.biaoti span:nth-child(4),
-.biaoti span:nth-child(6) {
+.daojishi span {
+    display: block;
+    height: 20px;
+    margin-top: 20px;
+    line-height: 20px;
     background-color: #6B6B6B;
     color: #fff;
-} */
+}
 
-.biaoti span:first-child {
+.biaoti span {
     margin-right: 10px;
 }
 
@@ -157,7 +168,206 @@ main {
     float: left;
 }
 
+.biaoti-right {
+    overflow: hidden;
+}
+
 .biaoti-right span {
     color: #FF3C64;
     float: right;
+}
+
+.chaojidanpin {
+    width: 100%;
+}
+
+.chaojidanpin a {
+    width: 30%;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.chaojidanpin img {
+    width: 100%;
+}
+
+.chaojidanpin p {
+    margin: 0px;
+    color: #212121;
+}
+
+.chaojidanpin a span {
+    color: #FF533E;
+}
+
+.chaojidanpin s {
+    color: #C7C7C7;
+}
+
+.chaojipinpai {
+    width: 100%;
+    overflow: hidden;
+}
+
+.chaojipinpai img {
+    float: left;
+    width: 50%;
+}
+
+.liangyoutiaowei {
+    width: 100%;
+}
+
+.liangyoutiaowei img {
+    float: left;
+    width: 50%;
+}
+
+.liangyoutiaowei img:nth-child(2) {
+    position: absolute;
+    left: -2.8%;
+    width: 90px;
+}
+
+.liangyoutiaowei span {
+    width: 115px;
+    line-height: 33px;
+    position: absolute;
+    left: -5.8%;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.shangping {
+    width: 100%;
+    overflow: hidden;
+}
+
+.shangping a {
+    width: 25%;
+    float: left;
+    text-decoration: none;
+}
+
+.shangping a img {
+    float: left;
+    width: 100%;
+}
+
+.shangping p {
+    color: #212121;
+    text-align: center;
+}
+
+/* 水果 */
+.shuiguo {
+    width: 100%;
+    overflow: hidden;
+}
+
+.shuiguo img {
+    float: left;
+    width: 50%;
+}
+
+.shuiguo img:nth-child(2) {
+    position: absolute;
+    left: -2.8%;
+    width: 90px;
+}
+
+.shuiguo span {
+    width: 115px;
+    line-height: 33px;
+    position: absolute;
+    left: -5.8%;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* 纸品清洁 */
+.zhipinqingjie {
+    width: 100%;
+    overflow: hidden;
+}
+
+.zhipinqingjie img {
+    float: left;
+    width: 50%;
+}
+
+.zhipinqingjie img:nth-child(2) {
+    position: absolute;
+    left: -2.8%;
+    width: 90px;
+}
+
+.zhipinqingjie span {
+    width: 115px;
+    line-height: 33px;
+    position: absolute;
+    left: -5.8%;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* 手机通讯 */
+.shoujitongxun {
+    width: 100%;
+    overflow: hidden;
+}
+
+.shoujitongxun img {
+    float: left;
+    width: 50%;
+}
+
+.shoujitongxun img:nth-child(2) {
+    position: absolute;
+    left: -2.8%;
+    width: 90px;
+}
+
+.shoujitongxun span {
+    width: 115px;
+    line-height: 33px;
+    position: absolute;
+    left: -5.8%;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.dongnixiangyao {
+    width: 100%;
+    overflow: hidden;
+}
+
+.dongnixiangyao a {
+    float: left;
+    width: 50%;
+}
+
+.dongnixiangyao span {
+    color: red;
+}
+
+.dongnixiangyao a span:last-child {
+    float: right;
+    margin-right: 20px;
+    color: #BBBBBB;
+}
+
+footer {
+    text-align: center;
+    color: #AFAFAF;
+}
+
+footer p:first-child {
+    color: #004477;
 }
