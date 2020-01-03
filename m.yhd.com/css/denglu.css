@@ -59,6 +59,10 @@ header img {
     color: #000000;
 }
 
+.daohang span:first-child {
+    color: #FF7575;
+}
+
 .mima {
     margin-top: 40px;
     width: 100%;

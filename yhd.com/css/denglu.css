@@ -1,0 +1,37 @@
+.daohanglan {
+    height: 80px;
+    border: 1px solid #e1e1e1;
+}
+
+.daohanglan img {
+    margin-top: 10px;
+}
+
+.daohanglan-right {
+    margin-top: 20px;
+    float: right;
+}
+
+.daohanglan-right span:nth-child(1) {
+    color: #999999;
+    margin-right: 50px;
+}
+
+.daohanglan-right span:nth-child(2) {
+    padding-right: 18px;
+    background: url(../img/regist.png) no-repeat right -30px;
+}
+
+.daohanglan-right a {
+    color: #0066CC;
+}
+
+.neirong-left {
+    float: left;
+    width: 510px;
+    height: 315px;
+}
+
+.neirong-right {
+    float: right;
+}
