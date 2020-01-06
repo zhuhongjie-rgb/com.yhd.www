@@ -1,6 +1,12 @@
+html,
+body {
+    background-color: #FCFCFC;
+}
+
 .daohanglan {
     height: 80px;
     border: 1px solid #e1e1e1;
+    background-color: #fff;
 }
 
 .daohanglan img {
@@ -26,6 +32,10 @@
     color: #0066CC;
 }
 
+.neirong {
+    background-color: #FCFCFC;
+}
+
 .neirong-left {
     float: left;
     width: 510px;
@@ -33,5 +43,56 @@
 }
 
 .neirong-right {
+    width: 300px;
+    height: 200px;
     float: right;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.neirong-right span {
+    margin-bottom: 5px;
+    float: left;
+    margin-left: 20px;
+}
+
+.neirong-right a {
+    margin-bottom: 5px;
+    float: right;
+    text-decoration: none;
+    color: #0066CC;
+    margin-right: 23px;
+}
+
+.neirong-right input {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    width: 250px;
+    height: 35px;
+}
+
+.neirong-right a:nth-child(7) {
+    width: 255px;
+    height: 35px;
+    background-color: red;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.neirong-right p span {
+    font-size: 27px;
+    margin-top: 10px;
+    color: red;
+}
+
+.neirong-right p span:first-child {
+    color: #10A8FF;
+}
+
+.neirong-right p span:nth-child(3) {
+    color: #10A8FF;
 }
