@@ -170,7 +170,7 @@
     height: 40px;
 }
 
-.lunbotu-wenzi span:nth-child(1) {
+.lunbotu-wenzi a:nth-child(1) {
     position: absolute;
     left: 40%;
     top: 575px;
@@ -183,7 +183,7 @@
     background-color: #ffffff
 }
 
-.lunbotu-wenzi span:nth-child(2) {
+.lunbotu-wenzi a:nth-child(2) {
     position: absolute;
     left: 48%;
     top: 575px;
@@ -196,7 +196,7 @@
     background-color: #ffffff
 }
 
-.lunbotu-wenzi span:nth-child(3) {
+.lunbotu-wenzi a:nth-child(3) {
     position: absolute;
     left: 56%;
     top: 575px;
@@ -209,7 +209,7 @@
     background-color: #ffffff
 }
 
-.lunbotu-wenzi span:hover {
+.lunbotu-wenzi a:hover {
     background-color: #333333;
     color: #FFFFFF;
 }
