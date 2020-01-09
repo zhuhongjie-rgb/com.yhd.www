@@ -57,6 +57,7 @@ body {
     height: 20px;
     color: #fff;
     background-color: #FF6C6C;
+    line-height: 20px;
 }
 
 .right a:nth-child(3) {
@@ -67,6 +68,7 @@ body {
     color: #666666;
     background-color: #FCFCFC;
     border: 1px solid #E4E4E4;
+    line-height: 20px;
 }
 
 .cainixihuan .biaoti {
@@ -93,6 +95,7 @@ body {
     float: left;
     width: 25%;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .cainixihuan-neirong a img {
